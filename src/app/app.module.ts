@@ -7,6 +7,7 @@ import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
 import { ProfileComponent } from './component/profile/profile.component';
 import { CardsComponent } from './component/cards/cards.component';
+import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardsComponent } from './component/cards/cards.component';
     LoginComponent,
     RegisterComponent,
     ProfileComponent,
-    CardsComponent
+    CardsComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
